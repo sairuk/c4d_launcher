@@ -1,0 +1,43 @@
+# chaiki4deck launcher config
+
+## CONNECTION
+#
+# ETHERNET: 0 (no) or 1 (yes) for if the client device is connected over ethernet
+# LOCAL_SSID: the local ssid of the device connected wifi connection
+# LOCAL_ADDR: the local ip addess of the PlayStation device
+# EXT_ADDR: the external ip address of the PlayStation device
+# NO_DISCOVER: Skip discovery
+# ALWAYS_ON: PlayStation device is always on, never need discovery nor wakeup, skip timeouts
+#
+ETHERNET=0
+LOCAL_SSID=
+LOCAL_ADDR=
+EXT_ADDR=
+NO_DISCOVER=0
+ALWAYS_ON=0
+
+# CONSOLE INFORMATION
+#
+# CONSOLE_TYPE: either 4 (PS4) or 5 (PS5) depending on remote system version
+# CONSOLE_NAME: the nickname of the console
+#
+CONSOLE_TYPE=4
+CONSOLE_NAME=
+
+## KEYS/PASSCODES
+#
+# REMOTEPLAY_KEY: Playstation remote play key
+# LOGIN_PASSCODE: Login passcode for you PSN account, only if you have configured one
+#
+REMOTEPLAY_KEY=
+LOGIN_PASSCODE=
+
+## ADDITIONAL CONFIGURATION
+#
+# VIEW_MODE: fullscreen (default), zoom or strech
+# DUALSENSE: enable dualsense support
+# TIMEOUT: the connection timeout duation in seconds
+#
+VIEW_MODE=fullscreen
+DUALSENSE=0
+TIMEOUT=35
